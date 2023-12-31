@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FORM2A</title>
+</head>
+
+<body>
+    <div id="outside">
+        <form id="survey-form" action="/my-handling-form-page" method="post">
+            <div>
+                <div class="heading">
+
+
+                    <h3 id="title">GOVERMENT OF INDIA</h3>
+                    <h3 id="title">BUREAU OF CIVIL AVIATION SECURITY</h3>
+                    <h3 id="title">
+                        AERODROME ENTRY PERMIT (AEP) APPLICATION FORM (AEPAF)
+                    </h3>
+                    <h3 id="title">
+                        <u>APPLICATION FOR ISSUE OF TEMPORARY AND Operational AEP</u>
+                    </h3>
+                    <!-- <p id="description"><b>Note:</b> Form is to be completed at least 21 days prior to date</p> -->
+                    <!-- heading -->
+                </div>
+
+                <div class="border">
+                    <span>UPLOAD RECENT <br>COLORED PHOTOGRAPH <br> (Size- 3.5 cm x 4.5 cm)</span>
+                </div>
+
+            </div>
+            <div class="AEP_id">
+                <label id="name-label" for="name" style="padding-top: 40px;" style="font-weight: bold;">1.
+                    AEPApplicationReference Id:</label>
+                <input type="text" required id="name" name="user_name" placeholder="" />
+                <br>
+                <label id="name-label" for="name">(Auto- generated) </label>
+            </div>
+            <div>
+                <label id="name-label" for="name" style="font-weight: bold;">2. AEP requested (Check [√] Appropriate
+                    Box)</label>
+                <div class="">
+                    <label class="control-label" style="font-weight: bold;">a. Type</label>
+                    <!-- Custom checkbox input - first create a label and inside this create input type checkbox -->
+                    <label class="control-checkbox">Permanent
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Temporary (1 to 30 Days)
+                        <input type="checkbox" name="Temporary (1 to 30 Days)" value="Temp" />
+                        <span></span>
+                    </label>
+                    <div class="tpye-day">
+                        <label class="control-checkbox">1 Day
+                            <input type="checkbox" name="1 Day" value="1 Day" />
+                            <span></span>
+                        </label>
+                        <label class="control-checkbox">1-7 Days
+                            <input type="checkbox" name="1-7 Days" value="1-7 Days" />
+                            <span></span>
+                        </label>
+                        <label class="control-checkbox">3 Month
+                            <input type="checkbox" name="3 Month" value="1-7 Days" />
+                            <span></span>
+                        </label>
+                        <label class="control-checkbox">6 Month
+                            <input type="checkbox" name="6 Month" value="1-7 Days" />
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- b.category -->
+            <div class="" id="category">
+                <label class="control-label" style="font-weight: bold;">b. Category</label>
+                <!-- Custom checkbox input - first create a label and inside this create input type checkbox -->
+                <label class="control-checkbox">Operational
+                    <input type="checkbox" name="Operational" value="Operational" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Government Security Agencies
+                    <input type="checkbox" name="Government Security Agencies" value="Temp" />
+                    <span></span>
+                </label>
+                <div class="catagory-op">
+                    <label class="control-checkbox">Protocol
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Infra
+                        <input type="checkbox" name="Tool of Trade" value="Temp" />
+                        <span></span>
+                    </label>
+                    <div class="catagory-op2">
+                        <label class="control-checkbox">Foreign National
+                            <input type="checkbox" name="Operational" value="Operational" />
+                            <span></span>
+                        </label>
+                        <label class="control-checkbox">Tool of Trade
+                            <input type="checkbox" name="Tool of Trade" value="Temp" />
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more checkboxes as needed -->
+            <!-- zone -->
+
+            <div class="col" id="category">
+                <label class="control-label">c. Zone</label>
+                <!-- Custom checkbox input - first create a label and inside this create input type checkbox -->
+
+                <label class="control-checkbox">A
+                    <input type="checkbox" name="A" value="A" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">D
+                    <input type="checkbox" name="D" value="D" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">T
+                    <input type="checkbox" name="T" value="T" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Si
+                    <input type="checkbox" name="Si" value="Si" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Sd
+                    <input type="checkbox" name="Sd" value="Sd" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">P
+                    <input type="checkbox" name="P" value="P" />
+                    <span></span>
+                </label>
+            </div>
+            <div class="catagory-op">
+                <label class="control-checkbox">B
+                    <input type="checkbox" name="B" value="B" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">F
+                    <input type="checkbox" name="F" value="F" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Ft
+                    <input type="checkbox" name="Ft" value="Ft" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Cs
+                    <input type="checkbox" name="Cs" value="Cs" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">I
+                    <input type="checkbox" name="I" value="I" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Any Other Zone
+                    <input type="checkbox" name="Any Other Zone" value="Any Other Zone" />
+                    <span></span>
+                </label>
+            </div>
+            <!-- zone -->
+            <!-- Airport -->
+
+            <div class="">
+                <label class="control-label" style="font-weight: bold;">d. Airport</label>
+                <!-- Custom checkbox input - first create a label and inside this create input type checkbox -->
+                <label class="control-checkbox">Single Airport
+                    <input type="checkbox" name="Single Airport" value="Single Airport" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">All Airports
+                    <input type="checkbox" name="All Airports" value="All Airports" />
+                    <span></span>
+                </label>
+                <div class="catagory-op">
+                    <label class="control-checkbox">All Domestic Airports
+                        <input type="checkbox" name="All Domestic Airports" value="All Domestic Airports" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Upto 5 Airports(_____,_____,_____,_____,__)
+                        <input type="checkbox" name="Upto 5 Airports" value="Upto 5 Airports" />
+                        <span></span>
+                    </label>
+                    <div class="catagory-op2">
+                        <label class="control-checkbox">Airports(With in Region)
+                            <input type="checkbox" name="Airports(With in Region)" value="" />
+                            <span></span>
+                        </label>
+                        <label class="control-checkbox">Tool of Trade
+                            <input type="checkbox" name="Tool of Trade" value="Temp" />
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Airport -->
+            <!-- Terminal     -->
+
+
+
+            <div class="">
+                <label class="control-label" style="font-weight: bold;">e. Terminal</label>
+                <!-- Custom checkbox input - first create a label and inside this create input type checkbox -->
+                <label class="control-checkbox">Cargo
+                    <input type="checkbox" name="Cargo" value="" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Domestic
+                    <input type="checkbox" name="Domestic" value="" />
+                    <span></span>
+                </label>
+                <div class="catagory-op">
+                    <label class="control-checkbox">International
+                        <input type="checkbox" name="Inrernational" value="" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Genral Aviation
+                        <input type="checkbox" name="Genral Aviation" value="" />
+                        <span></span>
+                    </label>
+                    <div class="catagory-op2">
+                        <label class="control-checkbox">All
+                            <input type="checkbox" name="All" value="" />
+                            <span></span>
+                        </label>
+                        <label class="control-checkbox">Terminal
+                            <input type="checkbox" name="Tool of Trade" value="Temp" />
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Terminal     -->
+
+            <!-- category 3 -->
+
+
+            <div>
+                <label id="name-label" class="col">3. Issue category</label>
+                <br>
+                <label id="name-label" for="name">(Ifselected[√] appropriate box,pleaseupload( ) relevantdocument)
+                </label>
+                <div class="col">
+                    <label class="control-label">a. Fresh</label>
+                    <!-- Custom checkbox input - first create a label and inside this create input type checkbox -->
+                    <label class="control-checkbox">Appointment/Posting order
+                        <i class="fa-regular fa-paperclip"></i>
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                </div>
+                <div class="">
+
+                    <label class="control-label"><b>b. Re-Issue</b></label>
+                    <!---->
+                    <label class="control-checkbox">Designation Change &nbsp; Promotion order
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Transfer &nbsp; Transfer Order
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Multilated/Damaged &nbsp; Copy of the document
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Expired &nbsp; Previous AEP
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                    <label class="control-checkbox">Loss &nbsp; FIR/Police complaint/Penalty challan and internal
+                        enquiry conducted
+                        <input type="checkbox" name="Operational" value="Operational" />
+                        <span></span>
+                    </label>
+                    <br>
+                    <label class="control-checkbox">Any Other Reason
+                        <input type="checkbox" name="Any Other Reson" value="" />
+
+                    </label>
+                    </label>
+                    <div class="relvent"></div>
+                    <label class="control-checkbox" id="relevant">Relevant doc.
+                        <input type="text" name="" value="" />
+                        <span></span>
+                    </label>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- category 3 -->
+
+
+            <div class="col">
+                <label class="">4. a. Details of the Applicant-</label>
+                <label for="checkbox1">
+                    <input type="checkbox" id="checkbox1" name="checkbox1"> Male
+                </label>
+
+                <label for="checkbox2">
+                    <input type="checkbox" id="checkbox2" name="checkbox2"> Female
+                </label>
+
+            </div>
+
+
+            <!-- Add more checkboxes as needed -->
+
+            <!-- ------------------Personal Details---------------------------- -->
+
+            <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+            <!-- formally describes the purpose of the fieldset it is included inside. -->
+            <div class="applicant">
+                <div class="applicant1">
+                    <div>
+                        <label id="name-label" for="name">Name:</label>
+                        <input type="text" required id="name" name="user_name" placeholder="" />
+                         
+                    </div>
+                    <div>
+                        <label id="email-label" for="Email">Father's Name</label>
+                        <input type="email" required id="email" name="user_email" placeholder="" />
+                         
+                    </div>
+                    <div>
+                        <label id="iq-label" for="iq">Date of Birth</label>
+                        <input type="text" id="iq" name="iq" placeholder="" />
+                         
+                    </div>
+                    <div>
+                        <label id="iq-label" for="iq">Mobile No.</label>
+                        <input type="text" id="iq" name="iq" placeholder="" />
+                         
+                    </div>
+                    <div>
+                        <label id="iq-label" for="iq">Next of kin(Mobile)</label>
+                        <input type="text" id="iq" name="iq" placeholder="" />
+                         
+                    </div>
+                </div>
+                <div class="applicant1">
+                    <div>
+                        <label for="address-label">Aadhar No.*</label>
+                        <input type="Address" id="address" name="Address" placeholder="" />
+                         
+                    </div>
+                    <div>
+                        <label id="number-label" for="phone">Mother's Name</label>
+                        <input type="text" id="number" name="user_name" placeholder="" min="1" max="9" /> 
+                    </div>
+                    <div>
+                        <label id="iq-label" for="iq">Blood Group</label>
+                        <input type="text" id="iq" name="iq" placeholder="" />
+                         
+                    </div>
+                    <div>
+                        <label id="iq-label" for="iq">Gender</label>
+                        <input type="text" id="iq" name="iq" placeholder="" />
+                         
+                    </div>
+                    <div>
+                        <label id="iq-label" for="iq">Type of ID Proof</label>
+                        <input type="text" id="iq" name="iq" placeholder="" />
+                         
+                    </div>
+                </div>
+                <div class="">
+                    <label id="" for=""><b>b. Details of eisting AEP in Possession:</b> </label>
+                    <br>
+                    <div class="AEP">
+                    <label id="iq-label" for="iq">AEP No.
+                    <input type="text" id="iq" name="iq" placeholder="" /></label>
+                    <label id="iq-label" for="iq">Valid Up TO
+                    <input type="text" id="iq" name="iq" placeholder="" /></label>
+                    <label id="iq-label" for="iq">PLace of Issue
+                    <input type="text" id="iq" name="iq" placeholder="" /></label>
+                </div>
+            </div>
+            </div>
+            <!-- residential Address -->
+
+
+
+            <div class="address">
+
+                <label class="col">5. Residential Address:</label>
+                <br>
+                <label class=""> <b>a. Permanent Address </b></label>
+                <br>
+                <div class="address1">
+                    <label for="checkbox1">House No./Street/Road
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">District
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">State
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Pin code
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Type of Address Proof Attached
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+
+                </div>
+                <label class=""><b> b. Present Address </b></label>
+                <br>
+                <div class="address1">
+                    <label for="checkbox2">House No./Street/Road
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                    <label for="checkbox2">District
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                    <label for="checkbox2">State
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                    <label for="checkbox2">Pin Code
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                </div>
+            </div>
+            <!-- employee details -->
+
+            <div class=>
+                <label class="col">6. Employment Details:</label>
+
+                <br>
+                <div class="employee">
+                    <label for="checkbox1">Name of the Organization
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Employee No.
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Nature of Duty
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Office Address
+                        <input type="text" id="checkbox3" name="checkbox1">
+                    </label>
+                </div>
+                <div class="employee">
+                    <label for="checkbox1">Designation
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Place of Duty
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Date of Retirment
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                </div>
+
+            </div>
+            <!-- employee details -->
+            <!-- other details -->
+            <div class="other">
+                <label class="col">7. Other Details:</label><br>
+                <ol>
+                    <li>
+                        <label for="">(a) Is any case pending against you with the police or court?
+                            <br>
+                            (b) If yes, furnish full details on a separate sheet of Paper.
+                            <label for="yesCheckbox">Yes <input type="checkbox" name="casePending" value="Yes"
+                                    id="yesCheckbox"></label>
+                            <label for="noCheckbox">No <input type="checkbox" name="casePending" value="No"
+                                    id="noCheckbox"></label>
+                        </label>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="">(a) Where you ever arrested?
+                            <br>
+                            (b) If yes, Furnish full details.
+                            <label for="yesCheckbox">Yes <input type="checkbox" name="casePending" value="Yes"
+                                    id="yesCheckbox"></label>
+                            <label for="noCheckbox">No <input type="checkbox" name="casePending" value="No"
+                                    id="noCheckbox"></label>
+                        </label>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="">(a) Were you pumished departmentally?
+                            <br>
+                            (b) If yes Furnish full details:
+                            <label for="yesCheckbox">Yes <input type="checkbox" name="casePending" value="Yes"
+                                    id="yesCheckbox"></label>
+                            <label for="noCheckbox">No <input type="checkbox" name="casePending" value="No"
+                                    id="noCheckbox"></label>
+                        </label>
+                    </li>
+                </ol>
+            </div>
+            <!-- other details -->
+            <div class="other8">
+                <label for="">8. Have your AEP Application ever been rejected?
+                    <label for="yesCheckbox">Yes <input type="checkbox" name="casePending" value="Yes"
+                            id="yesCheckbox"></label>
+                    <label for="noCheckbox">No <input type="checkbox" name="casePending" value="No"
+                            id="noCheckbox"></label>
+                </label>
+                <label for="">If yes,then specify reason
+                    <input type="text" name="" id="" class="other88">
+                </label>
+                <div class="othersecond">
+                    <label for="">Whether Issued or Not?
+                        <label for="yesCheckbox">Yes <input type="checkbox" name="casePending" value="Yes"
+                                id="yesCheckbox"></label>
+                        <label for="noCheckbox">No <input type="checkbox" name="casePending" value="No"
+                                id="noCheckbox"></label>
+                    </label>
+                </div>
+            </div>
+            <!-- point 9 -->
+
+
+
+
+
+            <div class="" id="category">
+                <label class="control-label">9.Previous AEP Zones</label>
+                <!-- Custom checkbox input - first create a label and inside this create input type checkbox -->
+
+                <label class="control-checkbox">A
+                    <input type="checkbox" name="A" value="A" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">D
+                    <input type="checkbox" name="D" value="D" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">T
+                    <input type="checkbox" name="T" value="T" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Si
+                    <input type="checkbox" name="Si" value="Si" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Sd
+                    <input type="checkbox" name="Sd" value="Sd" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">P
+                    <input type="checkbox" name="P" value="P" />
+                    <span></span>
+                </label>
+            </div>
+            <div class="catagory-op">
+                <label class="control-checkbox">B
+                    <input type="checkbox" name="B" value="B" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">F
+                    <input type="checkbox" name="F" value="F" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Ft
+                    <input type="checkbox" name="Ft" value="Ft" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Cs
+                    <input type="checkbox" name="Cs" value="Cs" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">I
+                    <input type="checkbox" name="I" value="I" />
+                    <span></span>
+                </label>
+                <label class="control-checkbox">Any Other Zone
+                    <input type="checkbox" name="Any Other Zone" value="Any Other Zone" />
+                    <span></span>
+                </label>
+            </div>
+            <!-- point 9 -->
+            <!-- Indaian National -->
+
+            <div class="">
+
+                <label class="">10. Infomation related to applicants other than Indaian Nationals</label>
+                <br>
+                <div class="address1">
+                    <label for="checkbox1">Nationality
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Place Of Issue
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Expiry Of Passport
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Type of Visa
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+                    <label for="checkbox1">Expiry of FATA
+                        <input type="text" id="checkbox1" name="checkbox1">
+                    </label>
+
+                </div>
+
+                <div class="address1">
+                    <label for="checkbox2">Passport No.**
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                    <label for="checkbox2">Date of Issue Passport
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                    <label for="checkbox2">Expiry of Visa
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                    <label for="checkbox2">Expiry of contact
+                        <input type="text" id="checkbox2" name="checkbox2">
+                    </label>
+                </div>
+            </div>
+            <!-- Indaian National -->
+            <!-- Training -->
+
+            <div>
+                <label class="col">11.AVSEC Awarness Traning:-</label>
+                <br>
+                <ol>
+
+                    <label for=""><b>a. Security Staff</b>
+                        <br>
+                        <label for="">Date of Traning
+                            <input type="text" name="" id="">
+                        </label>
+                        <label for="">Location
+                            <input type="text" name="" id="">
+                        </label>
+                        <br>
+                        <label for="">Initial
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label for="">Refresher
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <br>
+                        <label for="">Name & Organization of the AVESEC Instructur
+                            <input type="Text" name="" id="security3">
+                        </label>
+                    </label>
+                    <label for=""><b>b.Non-Security Staff</b>
+                        <br>
+                        <label for="">Date of Traning
+                            <input type="text" name="" id="">
+                        </label>
+                        <label for="">Location
+                            <input type="text" name="" id="">
+                        </label>
+                        <br>
+                        <label for="">Name & Organization of the AVESEC Instructur
+                            <input type="Text" name="" id="non_security3">
+                        </label>
+                    </label>
+
+                </ol>
+            </div>
+
+
+            <!-- Training -->
+            <!-- signature -->
+            <div>
+                <div class="signature">
+
+                    <div class="sign">
+                    </div>
+                    <div>
+                        <span>Applicant signature:-</span>
+                        <br>
+                        <span>Place:-</span>
+                        <br>
+                        <span>Date:-</span>
+                    </div>
+
+                </div>
+                <div class="signature">
+
+                    <div class="sign2">
+                    </div>
+                    <div>
+                        <span>Signature of Authorized Signatory with seal</span>
+                        <br>
+                        <span>Name:
+                            <div class="underline"></div>
+                        </span>
+                        <br>
+                        <span>Designation:
+                            <div class="underline"></div>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- signature -->
+            <!-- disclaimer -->
+            <div class="disclaimer">
+                <label for=""><u>*Disclaimer:-</u></label>
+                <br>
+                <span>**Any Govt. issued ID with 12-digit unique number which is same throughout the life time should be
+                    required for AEP registration. <br>
+                    The applicant’s 12-digit unique number shall not be used for any authentication and Bio-metric
+                    details of the applicant shall not be <br>
+                    retained permanently in the Database/Server.
+                    <br>
+                    ** Must.</span>
+            </div>
+            <!-- disclaimer -->
+        </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
